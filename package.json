@@ -1,0 +1,29 @@
+{
+  "name": "@appspike/react-native-remote-config",
+  "version": "1.4.5",
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "AppSpike Remote Config SDK for React Native — a Firebase Remote Config compatible API with on-device evaluation.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pydetech/appspike-sdk-react-native-dist.git"
+  },
+  "homepage": "https://appspike.dev",
+  "peerDependencies": {
+    "@react-native-async-storage/async-storage": ">=1.17.0",
+    "react-native": "*"
+  },
+  "peerDependenciesMeta": {
+    "@react-native-async-storage/async-storage": {
+      "optional": true
+    },
+    "react-native": {
+      "optional": true
+    }
+  }
+}

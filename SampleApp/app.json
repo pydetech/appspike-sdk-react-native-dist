@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "AppSpike Sample",
+    "slug": "appspike-sample",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "dev.appspike.sample"
+    },
+    "android": {
+      "package": "dev.appspike.sample"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
